@@ -1,6 +1,10 @@
 ﻿/*倒计日*/
 
-cal_source = cef_obj.getEvents();
+//cal_source = cef_obj.getEvents();
+var cal_source =
+`事件,日期,
+段考,2023-10-03,
+高考,2024-06-07`;
 
 let cal_source_vec = cal_source.split(',');
 console.log(cal_source_vec)
